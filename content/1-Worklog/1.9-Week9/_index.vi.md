@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-**Khoảng học ước tính:** 05/10–09/10/2026.
+**Thời gian ước tính:** 05/10–09/10/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Hiểu cách view và bộ lọc làm thay đổi phạm vi số liệu.
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 05/10/2026 | Phân biệt bảng nguồn và view. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
 | 06/10–07/10/2026 | Tìm hiểu phép nối và điều kiện loại trừ theo mã tin. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |

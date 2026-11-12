@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-**Khoảng học ước tính:** 19/10–23/10/2026.
+**Thời gian ước tính:** 19/10–23/10/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Chọn mốc thời gian và mẫu số phù hợp cho từng chỉ số.
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 19/10/2026 | Phân biệt ngày đăng, thời điểm thu thập và snapshot. | docs/WEEKLY_KPIS.md và docs/ANALYTICS_COMPLETION.md |
 | 20/10–21/10/2026 | Ôn cách đếm kỹ năng duy nhất và cặp kỹ năng. | docs/WEEKLY_KPIS.md và docs/ANALYTICS_COMPLETION.md |

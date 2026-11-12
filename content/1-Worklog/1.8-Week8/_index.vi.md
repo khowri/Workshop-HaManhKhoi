@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-**Khoảng học ước tính:** 28/09–02/10/2026.
+**Thời gian ước tính:** 28/09–02/10/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Biết viết truy vấn tổng hợp và đọc lượng dữ liệu Athena qu�
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 28/09/2026 | Tìm hiểu nguồn truy vấn và vị trí lưu kết quả Athena. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
 | 29/09–30/09/2026 | Ôn SELECT, WHERE, COUNT, GROUP BY và ORDER BY. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |

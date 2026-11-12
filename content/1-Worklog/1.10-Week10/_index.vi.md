@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-**Khoảng học ước tính:** 12/10–16/10/2026.
+**Thời gian ước tính:** 12/10–16/10/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Phân biệt lỗi dữ liệu với trường hợp nguồn thiếu thông tin.
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 12/10/2026 | Xây dựng quy tắc kiểm tra ID trùng và thiếu trường bắt buộc. | docs/ANALYTICS_COMPLETION.md |
 | 13/10–14/10/2026 | Phân biệt dữ liệu thiếu với giá trị sai miền. | docs/ANALYTICS_COMPLETION.md |

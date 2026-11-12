@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-**Khoảng học ước tính:** 10/08–14/08/2026.
+**Thời gian ước tính:** 10/08–14/08/2026.
 
 #### Mục tiêu tuần 1
 
@@ -16,7 +16,7 @@ pre: " <b> 1.1. </b> "
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 10/08/2026 | Tìm hiểu cách điều hướng trong AWS Management Console và nhận biết Region đang chọn. | [Cloud Journey · Tài khoản AWS][cloud-journey] |
 | 11/08/2026 | Phân biệt tài khoản root với danh tính dùng cho công việc hằng ngày. Tìm hiểu xác thực đa yếu tố (MFA). | [Cloud Journey · Tài khoản AWS và IAM][cloud-journey] |

@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-**Khoảng học ước tính:** 21/09–25/09/2026.
+**Thời gian ước tính:** 21/09–25/09/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Hiểu cách Data Catalog mô tả vị trí và cấu trúc dữ liệu cho Ath
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 21/09/2026 | Tìm hiểu database, bảng, kiểu cột và vị trí dữ liệu. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
 | 22/09–23/09/2026 | Phân biệt khai báo bảng bằng DDL với suy luận schema bằng crawler. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |

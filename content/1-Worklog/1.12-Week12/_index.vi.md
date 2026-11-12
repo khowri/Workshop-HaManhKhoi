@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-**Khoảng học ước tính:** 26/10–30/10/2026.
+**Thời gian ước tính:** 26/10–30/10/2026.
 
 #### Mục tiêu
 
@@ -15,7 +15,7 @@ Kết nối các dịch vụ AWS với luồng phân tích và đọc hồ sơ n
 
 #### Nội dung học tập
 
-| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
+| Thời gian ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
 | 26/10/2026 | Vẽ lại luồng EC2, S3, Glue, Athena và dashboard. | docs/EC2_DEPLOYMENT.md và docs/EC2_DEPLOYMENT_2026-11-02.md |
 | 27/10–28/10/2026 | Tổng hợp các kiểm tra sau công bố dữ liệu. | docs/EC2_DEPLOYMENT.md và docs/EC2_DEPLOYMENT_2026-11-02.md |
