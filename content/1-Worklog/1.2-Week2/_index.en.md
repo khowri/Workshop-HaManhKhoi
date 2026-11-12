@@ -11,7 +11,7 @@ pre: " <b> 1.2. </b> "
 
 #### Objective
 
-Build a working understanding of IAM and access control for AWS & Analytics.
+Build a working understanding of IAM and access control.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of IAM and access control for AWS & Analytics.
 #### Learning outcomes
 
 I can read a policy and explain what an identity can do.
-
-#### Connection to Vietnam IT Job Market
-
-Read the EC2 IAM role and distinguish Athena query permissions from S3 read and output permissions.

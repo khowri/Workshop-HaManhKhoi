@@ -11,7 +11,7 @@ pre: " <b> 1.8. </b> "
 
 #### Objective
 
-Build a working understanding of Amazon Athena and basic SQL for AWS & Analytics.
+Build a working understanding of Amazon Athena and basic SQL.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of Amazon Athena and basic SQL for AWS & Analytics
 #### Learning outcomes
 
 I can choose an appropriate count and read the volume scanned.
-
-#### Connection to Vietnam IT Job Market
-
-Use counts to reconcile rows, unique job IDs and posting totals by status.

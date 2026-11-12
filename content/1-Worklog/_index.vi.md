@@ -10,7 +10,7 @@ Trong dự án **Vietnam IT Job Market**, em phụ trách **AWS & Analytics**, g
 
 Nhật ký gồm 12 mục theo chủ đề công việc. Cột Ngày ghi mốc có trong hồ sơ hoặc tệp minh chứng. Dấu “—” biểu thị chưa có ngày đối chiếu. Các mốc tháng 11 thuộc hồ sơ hoàn thiện và triển khai dự án sau kỳ thực tập.
 
-Các khoảng học được ước tính từ 10/08 đến 30/10/2026 và sắp xếp theo chủ đề từ tổng quan đến chi tiết. Ngày ghi trong phần liên hệ hoặc minh chứng được giữ theo hồ sơ dự án.
+Các khoảng học được ước tính từ 10/08 đến 30/10/2026 và sắp xếp theo chủ đề từ tổng quan đến chi tiết. Ngày ghi trong phần minh chứng được giữ theo hồ sơ dự án.
 
 ### Tiến độ theo tuần
 
@@ -30,13 +30,13 @@ Các khoảng học được ước tính từ 10/08 đến 30/10/2026 và sắp
 
 **Tuần 8** · [Amazon Athena và SQL cơ bản](1.8-Week8/)
 
-**Tuần 9** · [SQL đối soát và dữ liệu công khai](1.9-Week9/)
+**Tuần 9** · [View và truy vấn đối soát trong Athena](1.9-Week9/)
 
-**Tuần 10** · [Kiểm tra chất lượng dữ liệu](1.10-Week10/)
+**Tuần 10** · [Quy tắc chất lượng dữ liệu với AWS Glue](1.10-Week10/)
 
-**Tuần 11** · [Phân tích lịch sử, kỹ năng và KPI tuần](1.11-Week11/)
+**Tuần 11** · [Phân tích dữ liệu theo thời gian với Athena](1.11-Week11/)
 
-**Tuần 12** · [Tổng hợp AWS và kiểm chứng kết quả](1.12-Week12/)
+**Tuần 12** · [Giám sát tài nguyên AWS bằng Amazon CloudWatch](1.12-Week12/)
 
 ### Minh chứng dự án
 

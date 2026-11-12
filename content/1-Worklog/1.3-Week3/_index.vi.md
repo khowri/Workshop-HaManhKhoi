@@ -24,7 +24,3 @@ Nắm cách VPC, subnet, định tuyến và security group phối hợp.
 #### Kết quả học tập
 
 Em có thể phân biệt cách định tuyến với quy tắc lọc lưu lượng.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Liên hệ đường truy cập dashboard trên EC2 và các kết nối từ ứng dụng đến dịch vụ AWS khi đọc sơ đồ kiến trúc.

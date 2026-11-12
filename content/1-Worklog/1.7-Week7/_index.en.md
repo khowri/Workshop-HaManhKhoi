@@ -11,7 +11,7 @@ pre: " <b> 1.7. </b> "
 
 #### Objective
 
-Build a working understanding of AWS Glue Data Catalog and schemas for AWS & Analytics.
+Build a working understanding of AWS Glue Data Catalog and schemas.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of AWS Glue Data Catalog and schemas for AWS & Ana
 #### Learning outcomes
 
 I can compare a table schema with the data file.
-
-#### Connection to Vietnam IT Job Market
-
-Read the itviec_current_jobs DDL and check its S3 location and job_id, skills, posted_date and status fields.

@@ -11,7 +11,7 @@ pre: " <b> 1.4. </b> "
 
 #### Objective
 
-Build a working understanding of EC2 and scheduled operations for AWS & Analytics.
+Build a working understanding of EC2 and scheduled operations.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of EC2 and scheduled operations for AWS & Analytic
 #### Learning outcomes
 
 I know to check run status before using the figures.
-
-#### Connection to Vietnam IT Job Market
-
-Read pipeline status to decide when to check Parquet and Athena results.

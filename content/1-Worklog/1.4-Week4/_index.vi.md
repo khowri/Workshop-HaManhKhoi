@@ -24,7 +24,3 @@ Hiểu cách ứng dụng và tác vụ định kỳ vận hành trên EC2.
 #### Kết quả học tập
 
 Em biết đọc trạng thái lượt chạy trước khi sử dụng số liệu.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Đọc trạng thái pipeline để xác định lúc nên đối chiếu tệp Parquet và số liệu Athena.

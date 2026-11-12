@@ -11,7 +11,7 @@ pre: " <b> 1.5. </b> "
 
 #### Objective
 
-Build a working understanding of Amazon S3 and data organization for AWS & Analytics.
+Build a working understanding of Amazon S3 and data organization.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of Amazon S3 and data organization for AWS & Analy
 #### Learning outcomes
 
 I can identify the bucket and prefix to check when data is missing.
-
-#### Connection to Vietnam IT Job Market
-
-Compare the canonical Parquet prefix with the Athena results location. Keeping per-run artifacts outside the scan path helps prevent duplicate counts.

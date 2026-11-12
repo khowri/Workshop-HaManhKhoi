@@ -11,7 +11,7 @@ pre: " <b> 1.3. </b> "
 
 #### Objective
 
-Build a working understanding of VPC and networking for AWS & Analytics.
+Build a working understanding of VPC and networking.
 
 #### Learning activities
 
@@ -24,7 +24,3 @@ Build a working understanding of VPC and networking for AWS & Analytics.
 #### Learning outcomes
 
 I can distinguish routing from traffic filtering.
-
-#### Connection to Vietnam IT Job Market
-
-Trace dashboard access to EC2 and connections from the application to AWS services.

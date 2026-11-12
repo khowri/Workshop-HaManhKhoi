@@ -19,12 +19,8 @@ Nắm vai trò của ETL và cách kiểm tra đầu ra Parquet.
 | --- | --- | --- |
 | 14/09/2026 | Phân biệt dữ liệu thô, tập hiện tại và lịch sử sự kiện. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 | 15/09–16/09/2026 | Tìm hiểu Parquet lưu theo cột và ảnh hưởng đến truy vấn. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
-| 17/09–18/09/2026 | Rà soát kiểu mã tin, ngày đăng, mảng kỹ năng và giá trị lương thiếu. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 17/09–18/09/2026 | Rà soát cách Parquet biểu diễn mã định danh, ngày, mảng và giá trị null. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 
 #### Kết quả học tập
 
 Em biết kiểm tra số dòng và kiểu trường trước khi dùng Parquet.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Theo dõi một bản ghi ITviec qua JSON, làm sạch và xuất Parquet. Hồ sơ ngày 05/10/2026 có tệp nguồn và lịch sử để đối chiếu.

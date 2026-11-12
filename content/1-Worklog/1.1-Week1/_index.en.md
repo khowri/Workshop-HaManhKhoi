@@ -28,8 +28,5 @@ pre: " <b> 1.1. </b> "
 
 I learned to find services in the AWS Console, check the selected Region and protect account access with MFA. I can distinguish service costs from alert thresholds configured in AWS Budgets.
 
-#### Connection to Vietnam IT Job Market
-
-Understanding Regions helped me see why the Singapore Region (`ap-southeast-1`) matters when checking S3 data and running Athena queries. For AWS & Analytics costs, two factors to track are the volume stored in S3 and the amount Athena scans when executing SQL.
 
 [cloud-journey]: https://cloudjourney.awsfcaj.com/vi/1-explore/

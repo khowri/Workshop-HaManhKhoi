@@ -10,7 +10,7 @@ I worked on **AWS & Analytics** for **Vietnam IT Job Market**, covering Amazon S
 
 The 12 worklog entries are organized by topic. Dates refer to records or evidence files. An em dash indicates no confirmed date. November dates refer to project completion and deployment after the internship.
 
-Study periods are estimated from 10 August to 30 October 2026 and progress from fundamentals to specialized topics. Dates in project connections and evidence follow the project records.
+Study periods are estimated from 10 August to 30 October 2026 and progress from fundamentals to specialized topics. Dates in the evidence section follow the project records.
 
 ### Weekly progress
 
@@ -30,13 +30,13 @@ Study periods are estimated from 10 August to 30 October 2026 and progress from 
 
 **Week 8** · [Amazon Athena and basic SQL](1.8-Week8/)
 
-**Week 9** · [SQL reconciliation and public data](1.9-Week9/)
+**Week 9** · [Views and reconciliation queries in Athena](1.9-Week9/)
 
-**Week 10** · [Data quality checks](1.10-Week10/)
+**Week 10** · [Data quality rules with AWS Glue](1.10-Week10/)
 
-**Week 11** · [Historical analysis, skills and weekly KPIs](1.11-Week11/)
+**Week 11** · [Time-based analysis with Athena](1.11-Week11/)
 
-**Week 12** · [AWS review and project verification](1.12-Week12/)
+**Week 12** · [Monitoring AWS resources with Amazon CloudWatch](1.12-Week12/)
 
 ### Project evidence
 

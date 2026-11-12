@@ -1,5 +1,5 @@
 ---
-title: "Week 10 · Data quality checks"
+title: "Week 10 · Data quality rules with AWS Glue"
 menuTitle: "Worklog Week 10"
 date: 2026-11-08
 weight: 10
@@ -11,20 +11,16 @@ pre: " <b> 1.10. </b> "
 
 #### Objective
 
-Build a working understanding of Data quality checks for AWS & Analytics.
+Learn how to define and evaluate data quality rules.
 
 #### Learning activities
 
 | Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 12/10/2026 | Define duplicate-ID and required-field checks. | docs/ANALYTICS_COMPLETION.md |
-| 13/10–14/10/2026 | Distinguish missing fields from invalid values. | docs/ANALYTICS_COMPLETION.md |
-| 15/10–16/10/2026 | Review sampling for seniority and salary checks. | docs/ANALYTICS_COMPLETION.md |
+| 12/10/2026 | Read how AWS Glue Data Quality evaluates Data Catalog tables. | [AWS Glue Data Quality](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html) |
+| 13/10–14/10/2026 | Study rules for completeness, uniqueness and row counts. | [AWS Glue Data Quality](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html) |
+| 15/10–16/10/2026 | Learn to interpret rule results and identify data for further review. | [AWS Glue Data Quality](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html) |
 
 #### Learning outcomes
 
-I can identify records that need to be checked against source data.
-
-#### Connection to Vietnam IT Job Market
-
-Read the Data Quality checks and distinguish clean JSON from the Athena source table. The 1 November 2026 local screenshot is post-internship evidence.
+I can distinguish missing data, duplicates and unusual changes in row counts.

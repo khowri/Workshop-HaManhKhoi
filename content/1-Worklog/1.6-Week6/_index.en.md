@@ -11,7 +11,7 @@ pre: " <b> 1.6. </b> "
 
 #### Objective
 
-Build a working understanding of ETL and Parquet for AWS & Analytics.
+Build a working understanding of ETL and Parquet.
 
 #### Learning activities
 
@@ -19,12 +19,8 @@ Build a working understanding of ETL and Parquet for AWS & Analytics.
 | --- | --- | --- |
 | 14/09/2026 | Distinguish raw data, current records and event history. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 | 15/09–16/09/2026 | Study columnar Parquet storage and query implications. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
-| 17/09–18/09/2026 | Review job IDs, dates, skill arrays and missing salary values. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 17/09–18/09/2026 | Review how Parquet stores identifiers, dates, arrays and null values. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 
 #### Learning outcomes
 
 I know to verify row counts and field types before using Parquet.
-
-#### Connection to Vietnam IT Job Market
-
-Trace an ITviec record through JSON, cleaning and Parquet export. The 5 October 2026 records provide source and history examples.

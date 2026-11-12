@@ -28,8 +28,5 @@ pre: " <b> 1.1. </b> "
 
 Em hiểu cách tìm dịch vụ trong AWS Console, kiểm tra Region và bảo vệ tài khoản bằng MFA. Em phân biệt được chi phí sử dụng tài nguyên với ngưỡng cảnh báo đã đặt trong AWS Budgets.
 
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Kiến thức về Region giúp em hiểu vì sao cần kiểm tra đúng khu vực Singapore (`ap-southeast-1`) khi đối chiếu dữ liệu trên S3 và truy vấn trong Athena. Khi xem chi phí của phần AWS & Analytics, em chú ý hai yếu tố là dung lượng dữ liệu lưu trên S3 và lượng dữ liệu Athena quét khi chạy SQL.
 
 [cloud-journey]: https://cloudjourney.awsfcaj.com/vi/1-explore/

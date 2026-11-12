@@ -24,7 +24,3 @@ Hiểu cách S3 tổ chức và phân tách dữ liệu phục vụ phân tích.
 #### Kết quả học tập
 
 Em xác định được bucket và prefix cần kiểm tra khi dữ liệu chưa xuất hiện.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Đối chiếu prefix chứa Parquet chuẩn với vị trí ghi kết quả Athena. Tách tệp của từng lượt chạy khỏi vùng Athena quét giúp tránh đếm lặp.

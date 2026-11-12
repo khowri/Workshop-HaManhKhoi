@@ -24,7 +24,3 @@ Biết viết truy vấn tổng hợp và đọc lượng dữ liệu Athena qu�
 #### Kết quả học tập
 
 Em biết chọn phép đếm phù hợp và đọc lượng dữ liệu quét.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Dùng các phép đếm để đối chiếu số bản ghi, số mã tin duy nhất và số tin theo trạng thái trong bảng nguồn.

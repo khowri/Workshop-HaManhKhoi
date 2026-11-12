@@ -24,7 +24,3 @@ Hiểu cách AWS xác định danh tính và giới hạn quyền truy cập the
 #### Kết quả học tập
 
 Em có thể đọc một policy và giải thích quyền của một danh tính.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Đọc IAM role của EC2 để phân biệt quyền truy vấn Athena, quyền đọc dữ liệu S3 và quyền ghi kết quả.

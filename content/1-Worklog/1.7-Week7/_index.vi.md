@@ -24,7 +24,3 @@ Hiểu cách Data Catalog mô tả vị trí và cấu trúc dữ liệu cho Ath
 #### Kết quả học tập
 
 Em có thể đối chiếu lược đồ bảng với tệp dữ liệu.
-
-#### Liên hệ với dự án Vietnam IT Job Market
-
-Đọc DDL của bảng itviec_current_jobs và đối chiếu vị trí S3 cùng các trường job_id, skills, posted_date và status.

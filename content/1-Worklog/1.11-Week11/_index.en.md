@@ -1,5 +1,5 @@
 ---
-title: "Week 11 · Historical analysis, skills and weekly KPIs"
+title: "Week 11 · Time-based analysis with Athena"
 menuTitle: "Worklog Week 11"
 date: 2026-11-08
 weight: 11
@@ -11,20 +11,16 @@ pre: " <b> 1.11. </b> "
 
 #### Objective
 
-Build a working understanding of Historical analysis, skills and weekly KPIs for AWS & Analytics.
+Learn to choose time references and compare figures across periods.
 
 #### Learning activities
 
 | Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 19/10/2026 | Distinguish posting dates, collection timestamps and snapshots. | docs/WEEKLY_KPIS.md and docs/ANALYTICS_COMPLETION.md |
-| 20/10–21/10/2026 | Review distinct skills and skill-pair counting. | docs/WEEKLY_KPIS.md and docs/ANALYTICS_COMPLETION.md |
-| 22/10–23/10/2026 | Compare two seven-day periods with identical filters and identify the denominator. | docs/WEEKLY_KPIS.md and docs/ANALYTICS_COMPLETION.md |
+| 19/10/2026 | Distinguish event dates, ingestion timestamps and snapshots. | [Amazon Athena SQL](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 20/10–21/10/2026 | Study date filtering and weekly aggregation. | [Amazon Athena SQL](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 22/10–23/10/2026 | Review window functions for comparing periods and handling missing data. | [Amazon Athena SQL](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
 
 #### Learning outcomes
 
-I can explain comparison periods, denominators and limits of historical data.
-
-#### Connection to Vietnam IT Job Market
-
-Explain dashboard KPI scope and historical limits in the prototype. The 1 November 2026 local sample shows 111 and 145 new postings across two periods.
+I can choose a suitable date field and explain when periods can be compared.
