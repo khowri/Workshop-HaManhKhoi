@@ -1,5 +1,5 @@
 ---
-title: "Week 2 · From collected data to current records"
+title: "Week 2 · IAM and access control"
 menuTitle: "Worklog Week 2"
 date: 2026-11-08
 weight: 2
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-#### Week 2 objective
+**Estimated study period:** 17/08–21/08/2026.
 
-Understand the source and why current records and collection events are stored separately.
+#### Objective
 
-#### Work completed
+Build a working understanding of IAM and access control for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 05/10/2026 | Review the JSON inputs and event files for a recorded collection run. | data/raw/itviec and data/history/itviec |
-| — | Review synchronization by job ID and the meaning of NEW, UPDATED and UNCHANGED. | processors/sync_itviec_current.py |
-| — | Check analytical fields after cleaning, particularly skills, location and salary. | processors/clean_itviec.py |
+| 17/08/2026 | Distinguish IAM users, roles and policies. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 18/08–19/08/2026 | Read Action, Resource and Effect. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 20/08–21/08/2026 | Study least privilege. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Outcome
+#### Learning outcomes
 
-The source posting date differs from when the system detects or updates a posting. This distinction informs time-based metrics.
+I can read a policy and explain what an identity can do.
+
+#### Connection to Vietnam IT Job Market
+
+Read the EC2 IAM role and distinguish Athena query permissions from S3 read and output permissions.

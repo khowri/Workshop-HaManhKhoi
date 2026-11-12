@@ -1,5 +1,5 @@
 ---
-title: "Week 3 · Parquet and storage on Amazon S3"
+title: "Week 3 · VPC and networking"
 menuTitle: "Worklog Week 3"
 date: 2026-11-08
 weight: 3
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-#### Week 3 objective
+**Estimated study period:** 24/08–28/08/2026.
 
-Check how analytical files are organized for Athena.
+#### Objective
 
-#### Work completed
+Build a working understanding of VPC and networking for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Compare the exported Parquet fields with the contract, including skill arrays, DATE fields and numeric salary. | processors/export_itviec_parquet.py |
-| — | Identify the canonical Parquet location and why per-run artifacts are outside the Athena scan path. | docs/CRITERIA_COMPLETION.md |
-| — | Review how analytics data is separated from account and personal activity data on S3. | AUTHENTICATION.md |
+| 24/08/2026 | Study VPCs, subnets and IP addresses. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 25/08–26/08/2026 | Read route tables and review the internet gateway. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 27/08–28/08/2026 | Study security group traffic rules. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Outcome
+#### Learning outcomes
 
-Athena reads a canonical dataset. Keeping run artifacts outside the table path avoids counting multiple exports.
+I can distinguish routing from traffic filtering.
+
+#### Connection to Vietnam IT Job Market
+
+Trace dashboard access to EC2 and connections from the application to AWS services.

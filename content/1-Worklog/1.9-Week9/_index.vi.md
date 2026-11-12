@@ -1,5 +1,5 @@
 ---
-title: "Tuần 9 · Phân tích lịch sử và kỹ năng trên bản thử nghiệm"
+title: "Tuần 9 · SQL đối soát và dữ liệu công khai"
 menuTitle: "Worklog Tuần 9"
 date: 2026-11-08
 weight: 9
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-#### Mục tiêu tuần 9
+**Khoảng học ước tính:** 05/10–09/10/2026.
 
-Đánh giá loại phân tích nào được dữ liệu hỗ trợ và ghi rõ giới hạn của lịch sử.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Hiểu cách view và bộ lọc làm thay đổi phạm vi số liệu.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| 01/11/2026 | Đối chiếu ba trục thời gian gồm ngày đăng, sự kiện thu thập và snapshot tin đang hoạt động. | docs/ANALYTICS_COMPLETION.md |
-| 01/11/2026 | Kiểm tra báo cáo local có 187 tệp sự kiện, 893 NEW, 71 UPDATED và một ngày có snapshot. | docs/analytics_completion/historical_summary.json |
-| 01/11/2026 | Rà soát quy tắc đếm kỹ năng và cặp kỹ năng từ tập kỹ năng duy nhất của từng tin. | docs/ANALYTICS_COMPLETION.md |
+| 05/10/2026 | Phân biệt bảng nguồn và view. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 06/10–07/10/2026 | Tìm hiểu phép nối và điều kiện loại trừ theo mã tin. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 08/10–09/10/2026 | Phân biệt số cặp việc làm–kỹ năng với số tin tuyển dụng. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Bản thử nghiệm có thể thống kê theo ngày đăng và sự kiện thu thập. Dữ liệu một ngày snapshot chưa đủ lập chuỗi tin đang hoạt động. Hai trang lịch sử và kỹ năng chuyên sâu thuộc giai đoạn thử nghiệm.
+Em xác định được phạm vi của một số đếm trước khi so sánh với dashboard.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Giải thích vì sao số tin nguồn, số ACTIVE và số công khai có thể khác nhau khi áp dụng kiểm duyệt.

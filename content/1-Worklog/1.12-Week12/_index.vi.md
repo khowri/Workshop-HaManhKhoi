@@ -1,5 +1,5 @@
 ---
-title: "Tuần 12 · Nghiệm thu triển khai và tổng kết"
+title: "Tuần 12 · Tổng hợp AWS và kiểm chứng kết quả"
 menuTitle: "Worklog Tuần 12"
 date: 2026-11-08
 weight: 12
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-#### Mục tiêu tuần 12
+**Khoảng học ước tính:** 26/10–30/10/2026.
 
-Tổng hợp bằng chứng triển khai, kiểm thử và các phần cần đánh giá thêm.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Kết nối các dịch vụ AWS với luồng phân tích và đọc hồ sơ nghiệm thu.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| 02/11/2026 | Đối chiếu biên bản triển khai. Hồ sơ ghi nhận 130 tệp khớp checksum, dashboard có 8 KPI và giao diện ADMIN có 10 trang. | docs/EC2_DEPLOYMENT_2026-11-02.md |
-| 02/11/2026 | Đọc hồ sơ HTTPS và health trả HTTP 200, WebSocket kết nối được, cùng lịch pipeline 02:00 giờ Việt Nam. | docs/EC2_DEPLOYMENT_2026-11-02.md |
-| 02/11/2026 | Tổng hợp các đầu việc cần kiểm chứng riêng như đo tải đồng thời, xác nhận cảnh báo và diễn tập phục hồi. | docs/OPERATIONS_RUNBOOK.md |
+| 26/10/2026 | Vẽ lại luồng EC2, S3, Glue, Athena và dashboard. | docs/EC2_DEPLOYMENT.md và docs/EC2_DEPLOYMENT_2026-11-02.md |
+| 27/10–28/10/2026 | Tổng hợp các kiểm tra sau công bố dữ liệu. | docs/EC2_DEPLOYMENT.md và docs/EC2_DEPLOYMENT_2026-11-02.md |
+| 29/10–30/10/2026 | Đọc hồ sơ nghiệm thu và phân biệt bản triển khai với lượt thu thập. | docs/EC2_DEPLOYMENT.md và docs/EC2_DEPLOYMENT_2026-11-02.md |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Bằng chứng triển khai và kết quả kiểm tra có mốc đối chiếu rõ. Biên bản ngày 02/11 ghi nhận lần triển khai, còn kết quả thu thập được đọc theo nhật ký từng lượt chạy.
+Em có thể trình bày luồng phân tích và dẫn đúng minh chứng cho mỗi kết quả.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Biên bản 28/10/2026 ghi 848 bản ghi nguồn, 848 ACTIVE và 848 bản ghi công khai tại thời điểm kiểm tra. Biên bản ngày 02/11/2026 là minh chứng triển khai sau kỳ thực tập.

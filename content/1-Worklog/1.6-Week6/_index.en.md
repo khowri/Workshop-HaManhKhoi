@@ -1,5 +1,5 @@
 ---
-title: "Week 6 · Dashboard queries and filters"
+title: "Week 6 · ETL and Parquet"
 menuTitle: "Worklog Week 6"
 date: 2026-11-08
 weight: 6
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-#### Week 6 objective
+**Estimated study period:** 14/09–18/09/2026.
 
-Trace data from Athena to KPIs, filters and job listings.
+#### Objective
 
-#### Work completed
+Build a working understanding of ETL and Parquet for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Review result retrieval, pagination, error handling and timeouts. | dashboard/job_data.py |
-| — | Check reuse of loaded data and the cache when filters change. | dashboard/market_dashboard.py and docs/PERFORMANCE_LOCAL.md |
-| — | Review the filter dimensions and KPI definitions in the dashboard. | dashboard/market_dashboard.py and docs/WEEKLY_KPIS.md |
+| 14/09/2026 | Distinguish raw data, current records and event history. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 15/09–16/09/2026 | Study columnar Parquet storage and query implications. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 17/09–18/09/2026 | Review job IDs, dates, skill arrays and missing salary values. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 
-#### Outcome
+#### Learning outcomes
 
-The dashboard reuses loaded data for filters and KPIs. Local performance evidence applies to its recorded test conditions.
+I know to verify row counts and field types before using Parquet.
+
+#### Connection to Vietnam IT Job Market
+
+Trace an ITviec record through JSON, cleaning and Parquet export. The 5 October 2026 records provide source and history examples.

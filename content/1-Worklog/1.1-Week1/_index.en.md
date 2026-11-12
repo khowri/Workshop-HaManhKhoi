@@ -1,5 +1,5 @@
 ---
-title: "Week 1 · Data scope and project role"
+title: "Week 1 · Getting started with AWS and cost management"
 menuTitle: "Worklog Week 1"
 date: 2026-11-08
 weight: 1
@@ -7,18 +7,29 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-#### Week 1 objective
+**Estimated study period:** 10/08–14/08/2026.
 
-Identify the analytical questions and handoffs between data collection, AWS and the dashboard.
+#### Week 1 objectives
 
-#### Work completed
+- Get familiar with the AWS Management Console and understand how Regions are selected.
+- Learn how to secure an AWS account and monitor service costs.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Identify ITviec as the source and company, location, seniority, skill and posting date as analytical dimensions. | README.md |
-| — | Review the Parquet output and the query requirements of the dashboard. | README.md |
-| — | Review job identifiers, date types, status and optional salary fields in the data contract. | config/job_schema.json |
+| 10/08/2026 | Learn to navigate the AWS Management Console and identify the selected Region. | [Cloud Journey · AWS account][cloud-journey] |
+| 11/08/2026 | Distinguish the root user from identities used for daily tasks. Read about multi-factor authentication (MFA). | [Cloud Journey · AWS account and IAM][cloud-journey] |
+| 12/08/2026 | Review cost drivers such as server runtime, storage volume and the amount of data scanned by queries. | [Cloud Journey · AWS Budgets][cloud-journey] |
+| 13/08/2026 | Learn how AWS Budgets tracks costs and sends alerts when a configured threshold is reached. | [Cloud Journey · AWS Budgets][cloud-journey] |
+| 14/08/2026 | List the information needed to investigate an issue, including the service, Region, time and error message. | [Cloud Journey · AWS Support][cloud-journey] |
 
-#### Outcome
+#### Learning outcomes
 
-The AWS and Analytics scope covers standardized data, SQL, dashboard inputs and data quality.
+I learned to find services in the AWS Console, check the selected Region and protect account access with MFA. I can distinguish service costs from alert thresholds configured in AWS Budgets.
+
+#### Connection to Vietnam IT Job Market
+
+Understanding Regions helped me see why the Singapore Region (`ap-southeast-1`) matters when checking S3 data and running Athena queries. For AWS & Analytics costs, two factors to track are the volume stored in S3 and the amount Athena scans when executing SQL.
+
+[cloud-journey]: https://cloudjourney.awsfcaj.com/vi/1-explore/

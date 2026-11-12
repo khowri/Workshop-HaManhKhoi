@@ -1,5 +1,5 @@
 ---
-title: "Tuần 2 · Từ dữ liệu thu thập đến dữ liệu hiện tại"
+title: "Tuần 2 · IAM và quyền truy cập"
 menuTitle: "Worklog Tuần 2"
 date: 2026-11-08
 weight: 2
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-#### Mục tiêu tuần 2
+**Khoảng học ước tính:** 17/08–21/08/2026.
 
-Hiểu dữ liệu đến từ đâu và vì sao cần giữ riêng bản ghi hiện tại với sự kiện thu thập.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Hiểu cách AWS xác định danh tính và giới hạn quyền truy cập theo công việc.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| 05/10/2026 | Đối chiếu đầu vào JSON và các tệp sự kiện của đợt thu thập được lưu trong dự án. | data/raw/itviec và data/history/itviec |
-| — | Rà soát cách đồng bộ theo job_id và ý nghĩa các sự kiện NEW, UPDATED, UNCHANGED trong luồng xử lý. | processors/sync_itviec_current.py |
-| — | Kiểm tra các trường phục vụ phân tích sau bước làm sạch, nhất là skills, location và thông tin lương. | processors/clean_itviec.py |
+| 17/08/2026 | Phân biệt IAM user, role và policy. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 18/08–19/08/2026 | Đọc Action, Resource và Effect trong policy. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 20/08–21/08/2026 | Tìm hiểu nguyên tắc cấp quyền tối thiểu. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Phân biệt được ngày đăng do ITviec cung cấp với thời điểm hệ thống phát hiện hoặc cập nhật một tin. Sự phân biệt này được dùng khi giải thích các chỉ số theo thời gian.
+Em có thể đọc một policy và giải thích quyền của một danh tính.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Đọc IAM role của EC2 để phân biệt quyền truy vấn Athena, quyền đọc dữ liệu S3 và quyền ghi kết quả.

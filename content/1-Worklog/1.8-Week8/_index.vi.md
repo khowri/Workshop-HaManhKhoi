@@ -1,5 +1,5 @@
 ---
-title: "Tuần 8 · Kiểm tra chất lượng dữ liệu"
+title: "Tuần 8 · Amazon Athena và SQL cơ bản"
 menuTitle: "Worklog Tuần 8"
 date: 2026-11-08
 weight: 8
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-#### Mục tiêu tuần 8
+**Khoảng học ước tính:** 28/09–02/10/2026.
 
-Tách lỗi cấu trúc khỏi trường hợp nguồn thiếu thông tin và xác định nhóm tin cần rà soát.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Biết viết truy vấn tổng hợp và đọc lượng dữ liệu Athena quét.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| — | Rà soát nhóm quy tắc trùng ID/URL, thiếu trường, lương bất thường, trạng thái ngoài miền và cấp bậc chưa rõ. | dashboard/quality_analysis.py |
-| — | Đối chiếu hai nguồn kiểm tra là clean JSON local và bảng nguồn Athena. Kiểm tra quyền ADMIN trước khi đọc. | dashboard/quality_page.py và dashboard/analytics_sources.py |
-| 01/11/2026 | Ghi nhận 39 trường hợp cấp bậc cần rà soát trong báo cáo đối chiếu quy tắc chuẩn hóa. | docs/IMPROVEMENTS_LOCAL.md và docs/quality_review/ |
+| 28/09/2026 | Tìm hiểu nguồn truy vấn và vị trí lưu kết quả Athena. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
+| 29/09–30/09/2026 | Ôn SELECT, WHERE, COUNT, GROUP BY và ORDER BY. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
+| 01/10–02/10/2026 | Đọc thống kê truy vấn để theo dõi lượng dữ liệu quét. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Có danh sách ứng viên để kiểm tra thủ công. Điểm Data Quality là chỉ số nội bộ phụ thuộc bộ quy tắc và các trường nguồn khả dụng. Mỗi ứng viên cần đối chiếu dữ liệu gốc trước khi xác nhận lỗi.
+Em biết chọn phép đếm phù hợp và đọc lượng dữ liệu quét.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Dùng các phép đếm để đối chiếu số bản ghi, số mã tin duy nhất và số tin theo trạng thái trong bảng nguồn.

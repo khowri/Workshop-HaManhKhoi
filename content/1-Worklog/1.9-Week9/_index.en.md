@@ -1,5 +1,5 @@
 ---
-title: "Week 9 · Historical and skill analysis in the prototype"
+title: "Week 9 · SQL reconciliation and public data"
 menuTitle: "Worklog Week 9"
 date: 2026-11-08
 weight: 9
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-#### Week 9 objective
+**Estimated study period:** 05/10–09/10/2026.
 
-Identify which analyses the available data can support.
+#### Objective
 
-#### Work completed
+Build a working understanding of SQL reconciliation and public data for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 01/11/2026 | Compare posting dates, collection events and active-posting snapshots. | docs/ANALYTICS_COMPLETION.md |
-| 01/11/2026 | Review the local report with 187 event files, 893 NEW and 71 UPDATED events and one snapshot date. | docs/analytics_completion/historical_summary.json |
-| 01/11/2026 | Review how unique skills and skill pairs are counted per posting. | docs/ANALYTICS_COMPLETION.md |
+| 05/10/2026 | Distinguish source tables and views. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 06/10–07/10/2026 | Study joins and exclusion predicates by job ID. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
+| 08/10–09/10/2026 | Distinguish job–skill pairs from posting counts. | [Amazon Athena – SQL reference](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
 
-#### Outcome
+#### Learning outcomes
 
-The prototype supports posting-date and event statistics. A single snapshot date cannot establish an active-posting time series.
+I can identify what a count covers before comparing it with the dashboard.
+
+#### Connection to Vietnam IT Job Market
+
+Explain why source, ACTIVE and public counts can differ after applying moderation rules.

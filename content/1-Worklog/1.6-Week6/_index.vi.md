@@ -1,5 +1,5 @@
 ---
-title: "Tuần 6 · Truy vấn và bộ lọc của dashboard"
+title: "Tuần 6 · ETL và định dạng Parquet"
 menuTitle: "Worklog Tuần 6"
 date: 2026-11-08
 weight: 6
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-#### Mục tiêu tuần 6
+**Khoảng học ước tính:** 14/09–18/09/2026.
 
-Rà soát đường đi từ Athena đến KPI, bộ lọc và danh sách việc làm.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Nắm vai trò của ETL và cách kiểm tra đầu ra Parquet.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| — | Đối chiếu truy vấn lấy dữ liệu, phân trang kết quả và xử lý lỗi hoặc timeout. | dashboard/job_data.py |
-| — | Kiểm tra cách dùng dữ liệu đã tải và cache khi thay bộ lọc, thay vì gọi Athena cho từng thẻ hoặc từng tin. | dashboard/market_dashboard.py và docs/PERFORMANCE_LOCAL.md |
-| — | Rà soát các chiều lọc và định nghĩa KPI với phần giao diện của dự án. | dashboard/market_dashboard.py và docs/WEEKLY_KPIS.md |
+| 14/09/2026 | Phân biệt dữ liệu thô, tập hiện tại và lịch sử sự kiện. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 15/09–16/09/2026 | Tìm hiểu Parquet lưu theo cột và ảnh hưởng đến truy vấn. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
+| 17/09–18/09/2026 | Rà soát kiểu mã tin, ngày đăng, mảng kỹ năng và giá trị lương thiếu. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Dashboard tái sử dụng tập dữ liệu đã tải để lọc và tính KPI. Các số đo hiệu năng trong hồ sơ local cần được đọc theo điều kiện kiểm thử của từng lần chạy.
+Em biết kiểm tra số dòng và kiểu trường trước khi dùng Parquet.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Theo dõi một bản ghi ITviec qua JSON, làm sạch và xuất Parquet. Hồ sơ ngày 05/10/2026 có tệp nguồn và lịch sử để đối chiếu.

@@ -1,5 +1,5 @@
 ---
-title: "Tuần 3 · Parquet và tổ chức dữ liệu trên Amazon S3"
+title: "Tuần 3 · VPC và kết nối mạng"
 menuTitle: "Worklog Tuần 3"
 date: 2026-11-08
 weight: 3
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-#### Mục tiêu tuần 3
+**Khoảng học ước tính:** 24/08–28/08/2026.
 
-Kiểm tra hợp đồng giữa tệp phân tích và nơi lưu trữ dùng cho Athena.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Nắm cách VPC, subnet, định tuyến và security group phối hợp.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| — | Đối chiếu đầu ra Parquet với hợp đồng dữ liệu, gồm skills dạng mảng, ngày đăng kiểu DATE và lương dạng số. | processors/export_itviec_parquet.py |
-| — | Xác định vị trí Parquet chuẩn và nguyên tắc để artifact của từng lượt chạy bên ngoài đường dẫn Athena quét. | docs/CRITERIA_COMPLETION.md |
-| — | Rà soát việc tách dữ liệu phân tích khỏi dữ liệu tài khoản và thao tác cá nhân trên S3. | AUTHENTICATION.md |
+| 24/08/2026 | Tìm hiểu VPC, subnet và địa chỉ IP. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 25/08–26/08/2026 | Đọc bảng định tuyến và vai trò Internet Gateway. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 27/08–28/08/2026 | Tìm hiểu cách security group kiểm soát lưu lượng. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Athena có một tập dữ liệu chuẩn để truy vấn. Việc giữ artifact của từng lượt chạy bên ngoài đường dẫn bảng giúp tránh đếm trùng khi lưu nhiều bản xuất.
+Em có thể phân biệt cách định tuyến với quy tắc lọc lưu lượng.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Liên hệ đường truy cập dashboard trên EC2 và các kết nối từ ứng dụng đến dịch vụ AWS khi đọc sơ đồ kiến trúc.

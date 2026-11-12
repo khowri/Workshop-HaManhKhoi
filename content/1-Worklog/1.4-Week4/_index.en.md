@@ -1,5 +1,5 @@
 ---
-title: "Week 4 · AWS Glue Data Catalog and Amazon Athena"
+title: "Week 4 · EC2 and scheduled operations"
 menuTitle: "Worklog Week 4"
 date: 2026-11-08
 weight: 4
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-#### Week 4 objective
+**Estimated study period:** 31/08–04/09/2026.
 
-Compare catalog metadata with Parquet and identify baseline queries.
+#### Objective
 
-#### Work completed
+Build a working understanding of EC2 and scheduled operations for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Review the external table itviec_current_jobs, Parquet format and S3 location. | sql/create_itviec_table.sql |
-| — | Compare the types of job_id, skills, posted_date, first_seen, last_seen and status between the file and table. | config/job_schema.json and source-table SQL |
-| — | Identify checks for row count, unique IDs, required fields and status totals after publication. | docs/EC2_DEPLOYMENT.md |
+| 31/08/2026 | Study instances and EBS volumes. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 01/09/2026 | Review services, timers and logs. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 03/09–04/09/2026 | Distinguish host status, run status and data publication. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Outcome
+#### Learning outcomes
 
-Checks cover Parquet, Athena and the dashboard. Glue Data Catalog stores the schema metadata used to query S3 data.
+I know to check run status before using the figures.
+
+#### Connection to Vietnam IT Job Market
+
+Read pipeline status to decide when to check Parquet and Athena results.

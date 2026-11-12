@@ -1,5 +1,5 @@
 ---
-title: "Tuần 4 · AWS Glue Data Catalog và Amazon Athena"
+title: "Tuần 4 · EC2 và vận hành tác vụ định kỳ"
 menuTitle: "Worklog Tuần 4"
 date: 2026-11-08
 weight: 4
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-#### Mục tiêu tuần 4
+**Khoảng học ước tính:** 31/08–04/09/2026.
 
-Đối chiếu schema trong Data Catalog với dữ liệu Parquet và xác định các truy vấn kiểm tra cơ bản.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Hiểu cách ứng dụng và tác vụ định kỳ vận hành trên EC2.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| — | Rà soát bảng ngoài itviec_current_jobs, định dạng Parquet và vị trí thư mục phân tích trên S3. | sql/create_itviec_table.sql |
-| — | Đối chiếu các kiểu trường job_id, skills, posted_date, first_seen, last_seen và status giữa tệp và bảng. | config/job_schema.json và SQL bảng nguồn |
-| — | Xác định các đối soát cần làm sau publish gồm số dòng, số ID duy nhất, trường bắt buộc và số tin theo trạng thái. | docs/EC2_DEPLOYMENT.md |
+| 31/08/2026 | Tìm hiểu instance và ổ EBS. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 01/09/2026 | Đọc vai trò của service, timer và nhật ký. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 03/09–04/09/2026 | Phân biệt trạng thái máy chủ, lượt chạy và lần công bố dữ liệu. | [Cloud Journey – Khám phá dịch vụ AWS](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Xác định được điểm kiểm tra ở ba lớp gồm tệp Parquet, bảng Athena và dữ liệu dashboard. Glue Data Catalog lưu metadata để Athena hiểu cấu trúc dữ liệu trên S3.
+Em biết đọc trạng thái lượt chạy trước khi sử dụng số liệu.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Đọc trạng thái pipeline để xác định lúc nên đối chiếu tệp Parquet và số liệu Athena.

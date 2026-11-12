@@ -1,5 +1,5 @@
 ---
-title: "Week 8 · Data quality checks"
+title: "Week 8 · Amazon Athena and basic SQL"
 menuTitle: "Worklog Week 8"
 date: 2026-11-08
 weight: 8
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-#### Week 8 objective
+**Estimated study period:** 28/09–02/10/2026.
 
-Distinguish structural errors from missing source fields and identify records for review.
+#### Objective
 
-#### Work completed
+Build a working understanding of Amazon Athena and basic SQL for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Review rules for duplicate IDs or URLs, missing fields, unusual salary, invalid status and unknown seniority. | dashboard/quality_analysis.py |
-| — | Compare local clean JSON and the Athena source table. Check the ADMIN access requirement. | dashboard/quality_page.py and dashboard/analytics_sources.py |
-| 01/11/2026 | Record the 39 seniority cases flagged for review against normalization rules. | docs/IMPROVEMENTS_LOCAL.md and docs/quality_review/ |
+| 28/09/2026 | Review the Athena data source and results location. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
+| 29/09–30/09/2026 | Review SELECT, WHERE, COUNT, GROUP BY and ORDER BY. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
+| 01/10–02/10/2026 | Read query statistics to track scanned data. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
 
-#### Outcome
+#### Learning outcomes
 
-Flagged cases require a source check. The internal score depends on available fields and applicable rules.
+I can choose an appropriate count and read the volume scanned.
+
+#### Connection to Vietnam IT Job Market
+
+Use counts to reconcile rows, unique job IDs and posting totals by status.

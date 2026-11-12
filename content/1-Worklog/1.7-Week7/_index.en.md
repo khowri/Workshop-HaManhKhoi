@@ -1,5 +1,5 @@
 ---
-title: "Week 7 · Review of EC2 publication"
+title: "Week 7 · AWS Glue Data Catalog and schemas"
 menuTitle: "Worklog Week 7"
 date: 2026-11-08
 weight: 7
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-#### Week 7 objective
+**Estimated study period:** 21/09–25/09/2026.
 
-Review the team's acceptance records and check Parquet publication consistency.
+#### Objective
 
-#### Work completed
+Build a working understanding of AWS Glue Data Catalog and schemas for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 28/10/2026 | Record the first EC2 run with 27 of 27 batches, 660 collected postings and 848 current records. | docs/EC2_DEPLOYMENT.md |
-| 28/10/2026 | Reconcile Athena counts after publication. The record shows 848 source, 848 ACTIVE and 848 public rows. | docs/EC2_DEPLOYMENT.md |
-| 28/10/2026 | Review checks for duplicate IDs, missing titles or companies and moderated postings appearing publicly. | docs/EC2_DEPLOYMENT.md and docs/SOFT_DELETE_PHASE3.md |
+| 21/09/2026 | Study databases, tables, column types and data locations. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
+| 22/09–23/09/2026 | Distinguish DDL from schema inference with a crawler. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
+| 24/09–25/09/2026 | Compare table and Parquet file schemas. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
 
-#### Outcome
+#### Learning outcomes
 
-The acceptance record shows zero findings in these four checks at the time of verification.
+I can compare a table schema with the data file.
+
+#### Connection to Vietnam IT Job Market
+
+Read the itviec_current_jobs DDL and check its S3 location and job_id, skills, posted_date and status fields.

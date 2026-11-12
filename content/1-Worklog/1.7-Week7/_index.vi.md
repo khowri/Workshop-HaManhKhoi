@@ -1,5 +1,5 @@
 ---
-title: "Tuần 7 · Đối soát lần xuất bản trên EC2"
+title: "Tuần 7 · AWS Glue Data Catalog và schema"
 menuTitle: "Worklog Tuần 7"
 date: 2026-11-08
 weight: 7
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-#### Mục tiêu tuần 7
+**Khoảng học ước tính:** 21/09–25/09/2026.
 
-Đọc kết quả nghiệm thu của nhóm và kiểm tra tính nhất quán sau khi công bố Parquet.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Hiểu cách Data Catalog mô tả vị trí và cấu trúc dữ liệu cho Athena.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| 28/10/2026 | Ghi nhận lượt chạy đầu trên EC2 hoàn thành 27/27 batch, thu thập 660 tin và tạo tập current 848 tin. | docs/EC2_DEPLOYMENT.md |
-| 28/10/2026 | Đối soát số liệu Athena sau publish. Hồ sơ ghi nhận 848 bản ghi nguồn, 848 ACTIVE và 848 bản ghi công khai. | docs/EC2_DEPLOYMENT.md |
-| 28/10/2026 | Đối chiếu kết quả kiểm tra trùng ID, thiếu tiêu đề/doanh nghiệp và tin bị gỡ xuất hiện công khai. | docs/EC2_DEPLOYMENT.md và docs/SOFT_DELETE_PHASE3.md |
+| 21/09/2026 | Tìm hiểu database, bảng, kiểu cột và vị trí dữ liệu. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
+| 22/09–23/09/2026 | Phân biệt khai báo bảng bằng DDL với suy luận schema bằng crawler. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
+| 24/09–25/09/2026 | Đối chiếu schema bảng với schema tệp Parquet. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Hồ sơ nghiệm thu ghi nhận 0 job_id trùng, 0 thiếu tiêu đề, 0 thiếu doanh nghiệp và 0 tin bị gỡ lọt ra công khai tại thời điểm kiểm tra.
+Em có thể đối chiếu lược đồ bảng với tệp dữ liệu.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Đọc DDL của bảng itviec_current_jobs và đối chiếu vị trí S3 cùng các trường job_id, skills, posted_date và status.

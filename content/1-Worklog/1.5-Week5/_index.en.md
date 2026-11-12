@@ -1,5 +1,5 @@
 ---
-title: "Week 5 · SQL for public data"
+title: "Week 5 · Amazon S3 and data organization"
 menuTitle: "Worklog Week 5"
 date: 2026-11-08
 weight: 5
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-#### Week 5 objective
+**Estimated study period:** 07/09–11/09/2026.
 
-Review how public results exclude moderated postings and preserve source data for reconciliation.
+#### Objective
 
-#### Work completed
+Build a working understanding of Amazon S3 and data organization for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| — | Read the ACTIVE and moderation filters in version 3 of the public view. | sql/create_itviec_active_jobs_v3_view.sql |
-| — | Check that the skill view and compatibility aliases use the same public scope. | sql/create_itviec_active_skills_v3_view.sql |
-| — | Review the DynamoDB state, audit and S3 projection used by Athena views. | docs/SOFT_DELETE_PHASE3.md |
+| 07/09/2026 | Study buckets, objects and prefixes. | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
+| 08/09–09/09/2026 | Distinguish source data, analytical files and query results. | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
+| 10/09–11/09/2026 | Review read permissions and object metadata. | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
 
-#### Outcome
+#### Learning outcomes
 
-Source, ACTIVE and public counts can differ. A moderated record can remain in source data for reconciliation.
+I can identify the bucket and prefix to check when data is missing.
+
+#### Connection to Vietnam IT Job Market
+
+Compare the canonical Parquet prefix with the Athena results location. Keeping per-run artifacts outside the scan path helps prevent duplicate counts.

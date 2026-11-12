@@ -1,5 +1,5 @@
 ---
-title: "Tuần 10 · KPI so sánh theo tuần"
+title: "Tuần 10 · Kiểm tra chất lượng dữ liệu"
 menuTitle: "Worklog Tuần 10"
 date: 2026-11-08
 weight: 10
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-#### Mục tiêu tuần 10
+**Khoảng học ước tính:** 12/10–16/10/2026.
 
-Kiểm tra cách chọn hai kỳ so sánh và diễn giải số liệu theo phạm vi tập dữ liệu.
+#### Mục tiêu
 
-#### Các công việc đã thực hiện
+Phân biệt lỗi dữ liệu với trường hợp nguồn thiếu thông tin.
 
-| Ngày | Công việc | Nguồn tài liệu |
+#### Nội dung học tập
+
+| Lịch học ước tính | Nội dung học tập | Nguồn tài liệu |
 | --- | --- | --- |
-| — | Rà soát hai khoảng bảy ngày liền nhau theo ngày đăng, dùng cùng bộ lọc và lấy mốc từ last_seen lớn nhất. | docs/WEEKLY_KPIS.md và dashboard/weekly_metrics.py |
-| 01/11/2026 | Đối chiếu kết quả local của kỳ 26/10–01/11 với kỳ 19/10–25/10. Số tin đăng mới là 111 và 145. | docs/WEEKLY_KPIS.md |
-| — | Kiểm tra trường hợp kỳ trước bằng 0, ngày đăng thiếu hoặc sai, và ranh giới múi giờ Việt Nam. | tests/test_weekly_metrics.py |
+| 12/10/2026 | Xây dựng quy tắc kiểm tra ID trùng và thiếu trường bắt buộc. | docs/ANALYTICS_COMPLETION.md |
+| 13/10–14/10/2026 | Phân biệt dữ liệu thiếu với giá trị sai miền. | docs/ANALYTICS_COMPLETION.md |
+| 15/10–16/10/2026 | Tìm hiểu cách chọn mẫu để xác minh cấp bậc và lương. | docs/ANALYTICS_COMPLETION.md |
 
-#### Kết quả đạt được
+#### Kết quả học tập
 
-Mẫu local giảm 34 tin đăng mới, tương đương 23,4% so với kỳ trước. Con số chỉ phản ánh tin trong tập hiện tại đã qua kiểm duyệt và cần được đọc cùng mốc dữ liệu.
+Em biết chọn trường hợp cần kiểm tra lại với nguồn.
+
+#### Liên hệ với dự án Vietnam IT Job Market
+
+Đọc các kiểm tra của trang Data Quality và phân biệt nguồn clean JSON với bảng Athena. Ảnh kiểm thử local ngày 01/11/2026 là minh chứng sau kỳ thực tập.

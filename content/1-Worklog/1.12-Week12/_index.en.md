@@ -1,5 +1,5 @@
 ---
-title: "Week 12 · Deployment acceptance and wrap-up"
+title: "Week 12 · AWS review and project verification"
 menuTitle: "Worklog Week 12"
 date: 2026-11-08
 weight: 12
@@ -7,18 +7,24 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-#### Week 12 objective
+**Estimated study period:** 26/10–30/10/2026.
 
-Summarize deployment evidence, checks and work that needs further verification.
+#### Objective
 
-#### Work completed
+Build a working understanding of AWS review and project verification for AWS & Analytics.
 
-| Evidence date | Work completed | Reference |
+#### Learning activities
+
+| Estimated study dates | Learning activity | Reference |
 | --- | --- | --- |
-| 02/11/2026 | Review the deployment record showing 130 matching file checksums, 8 KPIs and 10 ADMIN pages. | docs/EC2_DEPLOYMENT_2026-11-02.md |
-| 02/11/2026 | Review HTTPS and health HTTP 200 results, WebSocket connectivity and the 02:00 Vietnam pipeline schedule. | docs/EC2_DEPLOYMENT_2026-11-02.md |
-| 02/11/2026 | List outstanding concurrent-load, alert delivery and recovery rehearsal checks. | docs/OPERATIONS_RUNBOOK.md |
+| 26/10/2026 | Trace EC2, S3, Glue, Athena and the dashboard. | docs/EC2_DEPLOYMENT.md and docs/EC2_DEPLOYMENT_2026-11-02.md |
+| 27/10–28/10/2026 | Summarize checks after publication. | docs/EC2_DEPLOYMENT.md and docs/EC2_DEPLOYMENT_2026-11-02.md |
+| 29/10–30/10/2026 | Distinguish a deployment from a data collection run in the records. | docs/EC2_DEPLOYMENT.md and docs/EC2_DEPLOYMENT_2026-11-02.md |
 
-#### Outcome
+#### Learning outcomes
 
-The 2 November record documents the deployment. Collection results are tracked separately in each run log.
+I can present the analytics workflow and identify evidence for each result.
+
+#### Connection to Vietnam IT Job Market
+
+The 28 October 2026 report records 848 source, 848 ACTIVE and 848 public rows at verification time. The 2 November 2026 deployment report is post-internship evidence.
