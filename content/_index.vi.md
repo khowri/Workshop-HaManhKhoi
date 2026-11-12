@@ -23,8 +23,6 @@ chapter: false
 
 **Thời gian thực tập:** Từ ngày 08/08/2026 đến ngày 31/10/2026.
 
-**Vị trí trong dự án:** AWS & Analytics · Hạ tầng dữ liệu và phân tích
-
 <p style="text-align:center"><img src="/images/ha-manh-khoi.jpg" alt="Hạ Mạnh Khởi" width="220" style="display:block;width:220px;max-width:100%;height:auto;margin:1.5rem auto" /></p>
 
 ## Nội dung báo cáo

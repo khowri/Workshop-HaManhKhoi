@@ -23,8 +23,6 @@ chapter: false
 
 **Internship period:** From 8 August 2026 to 31 October 2026.
 
-**Project role:** AWS & Analytics · Data infrastructure and analytics
-
 <p style="text-align:center"><img src="/images/ha-manh-khoi.jpg" alt="Hạ Mạnh Khởi" width="220" style="display:block;width:220px;max-width:100%;height:auto;margin:1.5rem auto" /></p>
 
 ## Report contents
