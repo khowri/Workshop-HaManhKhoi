@@ -5,3 +5,4 @@ resources/
 meetup_*/
 scripts/
 *.log
+offline-build/

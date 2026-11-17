@@ -31,7 +31,7 @@ sudo systemctl cat vnjob-pipeline.timer
 
 Kết quả hiển thị timer đã **enabled**, đang **active (waiting)** và sẽ kích hoạt **vnjob-pipeline.service** theo lịch.
 
-![Trạng thái và cấu hình timer pipeline chạy lúc 02:00 giờ Việt Nam hằng ngày](/images/workshop/setup-5-12-02.png)
+![Trạng thái và cấu hình timer pipeline chạy lúc 02:00 giờ Việt Nam hằng ngày](/images/workshop/setup-pipeline-timer-2026-11-16.png)
 
 ---
 

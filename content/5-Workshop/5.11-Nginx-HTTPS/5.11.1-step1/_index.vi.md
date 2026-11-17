@@ -36,8 +36,7 @@ sudo nginx -t
 sudo systemctl status nginx --no-pager -n 0
 ```
 
-![Kiểm tra cấu hình Nginx thành công và dịch vụ đang hoạt động trên EC2](/images/workshop/setup-5-11-nginx-status.png)
-
+![Kiểm tra cấu hình Nginx thành công và dịch vụ đang hoạt động trên EC2](/images/workshop/setup-nginx-status-2026-11-16.png)
 
 ---
 

@@ -2,7 +2,18 @@
 
 Vietnam IT Job Market · AWS & Analytics
 
-## Xem trên máy
+## Xem trực tiếp bằng HTML
+
+Mở tệp Vietnam-IT-Job-Market-Ha-Manh-Khoi.html bằng Edge hoặc Chrome. Tệp có sẵn nội dung, ảnh và điều hướng tiếng Việt và tiếng Anh.
+
+Để xuất lại sau khi sửa nội dung, chạy tại thư mục báo cáo.
+
+~~~powershell
+hugo --baseURL http://localhost:1313/ --destination offline-build
+python tools/export-offline.py offline-build ../Vietnam-IT-Job-Market-Ha-Manh-Khoi.html
+~~~
+
+## Xem với Hugo
 
 Chạy các lệnh sau trong thư mục này bằng Hugo Extended 0.145.0.
 
