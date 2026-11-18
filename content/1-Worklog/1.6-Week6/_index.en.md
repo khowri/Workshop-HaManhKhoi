@@ -7,15 +7,15 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-**Estimated study period:** 14/09–18/09/2026.
+**Estimated time period:** 14/09–18/09/2026.
 
 #### Objective
 
-Build a working understanding of ETL and Parquet.
+Understand the role of ETL and how to validate Parquet output.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 14/09/2026 | Distinguish raw data, current records and event history. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |
 | 15/09–16/09/2026 | Study columnar Parquet storage and query implications. | [Amazon Athena – Optimize data](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html) |

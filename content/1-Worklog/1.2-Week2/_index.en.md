@@ -7,18 +7,18 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-**Estimated study period:** 17/08–21/08/2026.
+**Estimated time period:** 17/08–21/08/2026.
 
 #### Objective
 
-Build a working understanding of IAM and access control.
+Understand how AWS identifies identities and limits access permissions according to the work being performed.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 17/08/2026 | Distinguish IAM users, roles and policies. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
-| 18/08–19/08/2026 | Read Action, Resource and Effect. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
+| 18/08–19/08/2026 | Read Action, Resource and Effect in a policy. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 | 20/08–21/08/2026 | Study least privilege. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 
 #### Learning outcomes

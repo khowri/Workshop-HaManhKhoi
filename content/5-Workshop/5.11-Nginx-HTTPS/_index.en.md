@@ -1,13 +1,19 @@
 ---
-title: "Nginx and HTTPS"
+title: "Configure Nginx and IP-based HTTPS"
 date: 2026-11-11T00:00:00+07:00
 weight: 11
 chapter: false
 pre: " <b> 5.11. </b> "
 ---
 
-This chapter covers **Nginx and HTTPS** for the implemented Vietnam IT Job Market project. The complete setup procedure, commands and dated evidence are maintained in the Vietnamese companion.
+Enable web ingress, prepare Certbot, and install the IP reconciliation helper provided by the project.
 
-- [5.11.1. Mở ingress 80/443 và chuẩn bị proxy](5.11.1-step1/)
-- [5.11.2. Cài Certbot và cấu hình HTTPS tự động](5.11.2-step2/)
-- [5.11.3. Kiểm tra HTTP, HTTPS và WebSocket](5.11.3-step3/)
+### Setup steps
+
+- [5.11.1. Configure web access ports and Nginx](5.11.1-step1/)
+- [5.11.2. Install Certbot and configure automatic HTTPS](5.11.2-step2/)
+- [5.11.3. Check HTTP, HTTPS and WebSocket](5.11.3-step3/)
+
+---
+
+[← 5.10](../5.10-Users-Administration/) · [Contents](../) · [5.12 →](../5.12-Pipeline-Automation/)

@@ -100,7 +100,7 @@ Users can combine keywords with location, level, experience, company and salary 
 
 The website supports email registration and login with USER/ADMIN authorization. Accounts and personal activity are stored on S3. Users can save or unsave jobs, update application status, edit their display name and introduction, and change their password.
 
-ADMIN pages cover System status, User management, Job management and Data quality. Soft deletion changes visibility while retaining source data for restoration. DynamoDB stores moderation state and audit records; the Projection Worker synchronizes a snapshot to S3 for Athena filtering.
+ADMIN pages cover User management, Job management, Deleted jobs, Data quality, System status and Data collection status. Soft deletion changes visibility while retaining source data for restoration. DynamoDB stores moderation state and audit records; the Projection Worker synchronizes a snapshot to S3 for Athena filtering.
 
 #### 5.5. Deployment and operations
 
@@ -137,8 +137,8 @@ Estimated monthly costs in Singapore (ap-southeast-1), with the server running c
 
 | Component | Estimated monthly cost (USD) |
 | --- | ---: |
-| EC2 t3.small Linux | 19,27 |
-| EBS gp3 30 GiB | 2,88 |
+| EC2 t3.small Linux | 19.27 |
+| EBS gp3 30 GiB | 2.88 |
 | One public IPv4 address | 3.65 |
 | **Base total** | **25.80** |
 

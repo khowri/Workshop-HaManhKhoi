@@ -7,15 +7,15 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-**Estimated study period:** 28/09–02/10/2026.
+**Estimated time period:** 28/09–02/10/2026.
 
 #### Objective
 
-Build a working understanding of Amazon Athena and basic SQL.
+Learn to write aggregate queries and read the volume of data scanned by Athena.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 28/09/2026 | Review the Athena data source and results location. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |
 | 29/09–30/09/2026 | Review SELECT, WHERE, COUNT, GROUP BY and ORDER BY. | [Amazon Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) |

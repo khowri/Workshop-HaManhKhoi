@@ -1,5 +1,5 @@
 ---
-title: "Step 2"
+title: "USER Registration, Saved Jobs and Application Tracking"
 date: 2026-11-11T00:00:00+07:00
 weight: 2
 chapter: false
@@ -13,6 +13,18 @@ aliases:
   - "/en/5-workshop/5.6-user-features/5.6.4-step4/"
 ---
 
-The full setup procedure and evidence for **Đăng ký USER, lưu việc làm và theo dõi ứng tuyển** are maintained in Vietnamese. Use the language selector to read the complete procedure.
+The application supports registration and login using an email address and password. After logging in, users can save jobs of interest, track applications and manage their personal profiles.
 
-[Chapter contents](../)
+![Application login interface](/images/workshop/setup-5-10-login.png)
+
+**Saved jobs** brings together listings to revisit and supports searching, opening listings and removing saved jobs.
+
+![Saved jobs page overview](/images/workshop/setup-5-10-saved-jobs.png)
+
+**Application history** helps users track their job search progress. Users update the status themselves; it is not automatically synchronized from ITviec.
+
+![Application history page overview](/images/workshop/setup-5-10-02.png)
+
+---
+
+[← 5.10. Account and Administration Setup](../) · [Workshop contents](../../) · [Previous step](../5.10.1-step1/) · [Next step →](../5.10.3-step3/)

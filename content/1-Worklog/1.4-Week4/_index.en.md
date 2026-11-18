@@ -7,15 +7,15 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-**Estimated study period:** 31/08–04/09/2026.
+**Estimated time period:** 31/08–04/09/2026.
 
 #### Objective
 
-Build a working understanding of EC2 and scheduled operations.
+Understand how applications and scheduled tasks operate on EC2.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 31/08/2026 | Study instances and EBS volumes. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |
 | 01/09/2026 | Review services, timers and logs. | [Cloud Journey – Explore AWS services](https://cloudjourney.awsfcaj.com/vi/1-explore/) |

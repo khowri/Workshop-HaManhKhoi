@@ -1,5 +1,5 @@
 ---
-title: "Step 3"
+title: "Implementation Results Summary"
 date: 2026-11-11T00:00:00+07:00
 weight: 3
 chapter: false
@@ -9,6 +9,12 @@ aliases:
   - "/en/5-workshop/5.10-monitoring-results/5.10.4-step4/"
 ---
 
-The full setup procedure and evidence for **Đối chiếu kết quả đã có của dự án** are maintained in Vietnamese. Use the language selector to read the complete procedure.
+The system implements ITviec collection, Python processing on EC2, Parquet export to S3 and Athena queries through Glue Data Catalog. Streamlit provides the dashboard, user features and administration; Nginx and HTTPS provide web access.
 
-[Chapter contents](../)
+In the run on **11/11/2026**, the pipeline collected **624 listings**, synchronized them into a current dataset of **1,072 jobs** and successfully published Parquet. The dashboard displayed **654 active jobs**, **321 employers** and **131 jobs with disclosed salaries**. Current data includes different job statuses, so its total differs from the active job count on the dashboard.
+
+Test results and operational screenshots show that the checked functions operate as designed. Analytical data is limited to the ITviec source.
+
+---
+
+[← 5.14. Testing and Deployment Acceptance](../) · [Workshop contents](../../) · [Previous step](../5.14.2-step2/)

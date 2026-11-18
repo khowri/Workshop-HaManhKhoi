@@ -1,5 +1,5 @@
 ---
-title: "Step 1"
+title: "Schedule the pipeline at 02:00 Vietnam time"
 date: 2026-11-11T00:00:00+07:00
 weight: 1
 chapter: false

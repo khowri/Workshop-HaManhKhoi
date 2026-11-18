@@ -14,7 +14,7 @@ I assessed my internship using the criteria below.
 | 2 | Learning ability | Read AWS documentation and compared it with project data. | □ | □ | <span class="self-rating">☑</span> |
 | 3 | Initiative | Identified checks to run after publishing data. | □ | <span class="self-rating">☑</span> | □ |
 | 4 | Responsibility | Recorded the verification date and data scope alongside the results. | □ | <span class="self-rating">☑</span> | □ |
-| 5 | Discipline | Followed the internship schedule and procedures. | <span class="self-rating">☑</span> | □ | □ |
+| 5 | Discipline | Followed the schedule and regulations of the internship organization. | <span class="self-rating">☑</span> | □ | □ |
 | 6 | Willingness to improve | Identified gaps in data quality checks. | <span class="self-rating">☑</span> | □ | □ |
 | 7 | Communication | Explained the data source, formulas and KPI limitations. | □ | <span class="self-rating">☑</span> | □ |
 | 8 | Teamwork | Connected pipeline outputs, SQL and dashboard requirements. | □ | <span class="self-rating">☑</span> | □ |

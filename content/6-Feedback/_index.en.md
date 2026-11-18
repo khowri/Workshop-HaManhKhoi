@@ -8,7 +8,7 @@ pre: " <b> 7. </b> "
 
 ### General feedback
 
-**Working environment.** Dividing the project into pipeline, AWS, interface, accounts and administration helped me identify where teams needed to coordinate.
+**Working environment.** Dividing the project into pipeline, AWS, interface, accounts and administration helped me clearly identify where coordination was needed when the output of one part became the input to another.
 
 **Relevance to my studies.** The project gave me a chance to apply databases, SQL, data processing and cloud computing in one system.
 

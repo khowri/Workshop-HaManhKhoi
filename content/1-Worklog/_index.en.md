@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-I worked on **AWS & Analytics** for **Vietnam IT Job Market**, covering Amazon S3, AWS Glue Data Catalog, Amazon Athena, SQL, data quality and historical analysis in the prototype.
+I worked on **AWS & Analytics** for **Vietnam IT Job Market**, covering Amazon S3, AWS Glue Data Catalog, Amazon Athena, SQL queries, data quality checks and historical analysis during the experimental phase.
 
-The 12 worklog entries are organized by topic. Dates refer to records or evidence files. An em dash indicates no confirmed date. November dates refer to project completion and deployment after the internship.
+The 12 worklog entries are organized by topic. The Date column records milestones found in records or evidence files. An em dash indicates no confirmed date. November dates refer to project completion and deployment after the internship.
 
 Study periods are estimated from 10 August to 30 October 2026 and progress from fundamentals to specialized topics. Dates in the evidence section follow the project records.
 

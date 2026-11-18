@@ -1,5 +1,5 @@
 ---
-title: "Step 2"
+title: "Install Certbot and configure automatic HTTPS"
 date: 2026-11-11T00:00:00+07:00
 weight: 2
 chapter: false
@@ -56,6 +56,8 @@ The **vnjob-ip** certificate was issued for **47.128.13.35** and was valid when 
 HTTPS encrypts login information and user activity in transit. The address verified on **16 November 2026** was **https://47.128.13.35**. The **vnjob-certbot** timer maintains the IP certificate and updates the configuration when the address changes.
 
 ![Dashboard accessed over HTTPS at 47.128.13.35 on 16 November 2026](/images/workshop/setup-https-dashboard-2026-11-16.png)
+
+
 
 ---
 

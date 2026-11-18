@@ -1,5 +1,5 @@
 ---
-title: "Step 1"
+title: "Configure web access ports and Nginx"
 date: 2026-11-11T00:00:00+07:00
 weight: 1
 chapter: false
@@ -37,6 +37,7 @@ sudo systemctl status nginx --no-pager -n 0
 ```
 
 ![Successful Nginx configuration check and running service on EC2](/images/workshop/setup-nginx-status-2026-11-16.png)
+
 
 ---
 

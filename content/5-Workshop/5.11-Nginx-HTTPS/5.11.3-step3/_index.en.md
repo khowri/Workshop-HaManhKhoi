@@ -1,5 +1,5 @@
 ---
-title: "Step 3"
+title: "Check HTTP, HTTPS and WebSocket"
 date: 2026-11-11T00:00:00+07:00
 weight: 3
 chapter: false
@@ -27,6 +27,7 @@ HTTP returns **301 Moved Permanently** and redirects to HTTPS. The HTTPS health 
 WebSocket maintains Streamlit's interactive connection. Open DevTools → Network → Socket, reload the page and select **stream**. In Headers, inspect **wss://47.128.13.35/_stcore/stream**; the connection returns **101 Switching Protocols**.
 
 ![WebSocket at 47.128.13.35 returning 101 Switching Protocols on 16 November 2026](/images/workshop/setup-websocket-2026-11-16.png)
+
 
 ---
 

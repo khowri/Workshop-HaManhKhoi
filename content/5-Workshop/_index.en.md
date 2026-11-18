@@ -9,23 +9,39 @@ aliases:
   - "/en/4-workshop/"
 ---
 
-## VIETNAM IT JOB MARKET — SETUP AND DEPLOYMENT
+## SET UP AND DEPLOY VIETNAM IT JOB MARKET ON AWS
 
-The Vietnamese Workshop contains the full source-based setup course. English pages provide navigation summaries.
+This workshop describes the setup of Vietnam IT Job Market on AWS, from resource preparation and ITviec data collection and processing to dashboard deployment, administration and operational monitoring.
 
-- [5.1. Introduction](5.1-Introduction/)
-- [5.2. Prerequisites](5.2-Prerequisites/)
-- [5.3. Amazon S3 storage](5.3-S3-Storage/)
-- [5.4. Glue Data Catalog and Athena](5.4-Catalog-Athena/)
-- [5.5. DynamoDB moderation](5.5-DynamoDB-Moderation/)
-- [5.6. EC2 deployment](5.6-EC2-Deployment/)
-- [5.7. ITviec collection](5.7-ITviec-Collection/)
-- [5.8. ETL and publication](5.8-Data-Processing/)
-- [5.9. Streamlit dashboard](5.9-Streamlit-Dashboard/)
-- [5.10. Accounts and administration](5.10-Users-Administration/)
-- [5.11. Nginx and HTTPS](5.11-Nginx-HTTPS/)
-- [5.12. Pipeline scheduling and operations](5.12-Pipeline-Automation/)
-- [5.13. CloudWatch monitoring](5.13-Monitoring/)
-- [5.14. Testing and acceptance](5.14-Testing-Results/)
-- [5.15. Backup and recovery](5.15-Backup-Recovery/)
-- [5.16. Cleanup and conclusion](5.16-Cleanup-Conclusion/)
+**Region:** ap-southeast-1 — Singapore. **Source:** E:\vn-it-job-market. **Runtime:** /opt/vn-it-job-market on a single EC2 instance.
+
+### Contents
+
+| Section | Setup topic |
+| --- | --- |
+| 5.1 | [Introduction](5.1-Introduction/) |
+| 5.2 | [Preparation](5.2-Prerequisites/) |
+| 5.3 | [Set up Amazon S3 storage](5.3-S3-Storage/) |
+| 5.4 | [Set up Glue Data Catalog and Athena](5.4-Catalog-Athena/) |
+| 5.5 | [Set up DynamoDB and moderation data](5.5-DynamoDB-Moderation/) |
+| 5.6 | [Deploy source code and runtime on EC2](5.6-EC2-Deployment/) |
+| 5.7 | [Set up and run ITviec collection](5.7-ITviec-Collection/) |
+| 5.8 | [Set up ETL and publish Parquet](5.8-Data-Processing/) |
+| 5.9 | [Configure and deploy the Streamlit Dashboard](5.9-Streamlit-Dashboard/) |
+| 5.10 | [Account and Administration Setup](5.10-Users-Administration/) |
+| 5.11 | [Set up Nginx and IP-based HTTPS](5.11-Nginx-HTTPS/) |
+| 5.12 | [Schedule the pipeline and set up the Operations Worker](5.12-Pipeline-Automation/) |
+| 5.13 | [Set up CloudWatch and monitoring](5.13-Monitoring/) |
+| 5.14 | [Testing and Deployment Acceptance](5.14-Testing-Results/) |
+| 5.15 | [Back up data and verify recovery](5.15-Backup-Recovery/) |
+| 5.16 | [Clean up resources and conclude](5.16-Cleanup-Conclusion/) |
+
+### Procedure
+
+Follow the sections in order. The pipeline coordinates collection, synchronization, cleaning and data publication. Use the same run ID to connect the EC2 results with the Parquet file on S3.
+
+For existing AWS resources, the workshop documents the configuration and screenshots of the completed setup. These resources do not need to be recreated. The source code, runtime, pipeline and ETL sections explain the deployment sequence and result checks.
+
+---
+
+[Start: 5.1. Introduction →](5.1-Introduction/)

@@ -7,15 +7,15 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-**Estimated study period:** 07/09–11/09/2026.
+**Estimated time period:** 07/09–11/09/2026.
 
 #### Objective
 
-Build a working understanding of Amazon S3 and data organization.
+Understand how S3 organizes and separates data for analysis.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 07/09/2026 | Study buckets, objects and prefixes. | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
 | 08/09–09/09/2026 | Distinguish source data, analytical files and query results. | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |

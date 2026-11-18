@@ -7,7 +7,7 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-**Estimated study period:** 26/10–30/10/2026.
+**Estimated time period:** 26/10–30/10/2026.
 
 #### Objective
 
@@ -15,7 +15,7 @@ Understand how to monitor resources and investigate anomalies.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 26/10/2026 | Distinguish CloudWatch metrics, logs and alarms. | [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) |
 | 27/10–28/10/2026 | Study log groups, log streams and filtering by time. | [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) |

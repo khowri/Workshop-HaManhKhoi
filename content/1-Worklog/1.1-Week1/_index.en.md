@@ -7,16 +7,16 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-**Estimated study period:** 10/08–14/08/2026.
+**Estimated time period:** 10/08–14/08/2026.
 
 #### Week 1 objectives
 
-- Get familiar with the AWS Management Console and understand how Regions are selected.
+- Get familiar with the AWS Management Console and understand the significance of choosing a Region.
 - Learn how to secure an AWS account and monitor service costs.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 10/08/2026 | Learn to navigate the AWS Management Console and identify the selected Region. | [Cloud Journey · AWS account][cloud-journey] |
 | 11/08/2026 | Distinguish the root user from identities used for daily tasks. Read about multi-factor authentication (MFA). | [Cloud Journey · AWS account and IAM][cloud-journey] |

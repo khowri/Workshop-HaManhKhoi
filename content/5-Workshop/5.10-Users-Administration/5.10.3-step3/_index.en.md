@@ -1,5 +1,5 @@
 ---
-title: "Step 3"
+title: "Profiles, Passwords and USER Management"
 date: 2026-11-11T00:00:00+07:00
 weight: 3
 chapter: false
@@ -11,6 +11,16 @@ aliases:
   - "/en/5-workshop/5.7-administration/5.7.1-step1/"
 ---
 
-The full setup procedure and evidence for **Hồ sơ, mật khẩu và quản lý USER** are maintained in Vietnamese. Use the language selector to read the complete procedure.
+The **Personal profile** page allows users to update their display name and introduction, and change their password.
 
-[Chapter contents](../)
+![Personal profile page overview](/images/workshop/setup-5-10-profile.png)
+
+The **User management** page helps ADMIN find accounts and manage their active status. ADMIN can also create USER accounts using an email address and an initial password.
+
+![User status management overview](/images/workshop/setup-5-10-manage-users.png)
+
+![User account creation form for ADMIN](/images/workshop/setup-5-10-create-user.png)
+
+---
+
+[← 5.10. Account and Administration Setup](../) · [Workshop contents](../../) · [Previous step](../5.10.2-step2/)

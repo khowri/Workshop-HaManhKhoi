@@ -7,15 +7,15 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-**Estimated study period:** 05/10–09/10/2026.
+**Estimated time period:** 05/10–09/10/2026.
 
 #### Objective
 
-Understand how views, joins and filters affect query results.
+Understand how views, joins and filters affect query row counts.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 05/10/2026 | Read how to define a view from a SELECT query. | [Amazon Athena SQL](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |
 | 06/10–07/10/2026 | Study how one-to-many joins can increase row counts. | [Amazon Athena SQL](https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html) |

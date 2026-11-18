@@ -1,13 +1,19 @@
 ---
-title: "Accounts and administration"
+title: "Account and Administration Setup"
 date: 2026-11-11T00:00:00+07:00
 weight: 10
 chapter: false
 pre: " <b> 5.10. </b> "
 ---
 
-This chapter covers **Accounts and administration** for the implemented Vietnam IT Job Market project. The complete setup procedure, commands and dated evidence are maintained in the Vietnamese companion.
+This section introduces the application's interface and features for accounts, personal data and administration.
 
-- [5.10.1. Cấu hình xác thực và tài khoản quản trị ban đầu](5.10.1-step1/)
-- [5.10.2. Đăng ký USER, lưu việc làm và theo dõi ứng tuyển](5.10.2-step2/)
-- [5.10.3. Hồ sơ, mật khẩu và quản lý USER](5.10.3-step3/)
+### Main features
+
+- [5.10.1. Accounts and authorization](5.10.1-step1/)
+- [5.10.2. USER registration, saved jobs and application tracking](5.10.2-step2/)
+- [5.10.3. Profiles, passwords and USER management](5.10.3-step3/)
+
+---
+
+[← 5.9](../5.9-Streamlit-Dashboard/) · [Contents](../) · [5.11 →](../5.11-Nginx-HTTPS/)

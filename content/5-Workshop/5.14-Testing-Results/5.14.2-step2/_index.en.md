@@ -1,5 +1,5 @@
 ---
-title: "Step 2"
+title: "System Acceptance Checks on AWS"
 date: 2026-11-11T00:00:00+07:00
 weight: 2
 chapter: false
@@ -23,6 +23,20 @@ aliases:
   - "/en/4-workshop/4.13-cleanup-conclusion/"
 ---
 
-The full setup procedure and evidence for **Nghiệm thu dữ liệu, quyền và web trên AWS** are maintained in Vietnamese. Use the language selector to read the complete procedure.
+Deployment results were checked through the AWS Console, SSM terminal and website. The corresponding screenshots appear in the preceding sections.
 
-[Chapter contents](../)
+| Item | Recorded result |
+| --- | --- |
+| Pipeline | The 11/11/2026 run succeeded, completed 25/25 batches and published data to S3 |
+| Data | Clean JSON and Parquet both contain 1,072 records; Parquet has 24 columns |
+| S3 and Athena | Parquet exists on S3; the skills query completed and returned data |
+| Dashboard | Displays KPIs, charts, search, filters and job details |
+| Accounts | USER and ADMIN interfaces are available; saved jobs, application history and profile pages were opened for inspection |
+| Web access | Nginx is running; HTTP redirects to HTTPS, health returns ok and WebSocket returns 101 |
+| Operations | The pipeline timer is enabled; CloudWatch Agent and the journal exporter are running, and logs appear in CloudWatch |
+
+Pipeline results belong to run **20261111T081952Z-a435a240**. The moderation interface tests in 5.14.1 were performed in a test environment.
+
+---
+
+[← 5.14. Testing and Deployment Acceptance](../) · [Workshop contents](../../) · [Previous step](../5.14.1-step1/) · [Next step →](../5.14.3-step3/)

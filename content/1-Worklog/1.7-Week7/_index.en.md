@@ -7,18 +7,18 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-**Estimated study period:** 21/09–25/09/2026.
+**Estimated time period:** 21/09–25/09/2026.
 
 #### Objective
 
-Build a working understanding of AWS Glue Data Catalog and schemas.
+Understand how Data Catalog describes data locations and structures for Athena.
 
 #### Learning activities
 
-| Estimated study dates | Learning activity | Reference |
+| Estimated time period | Learning activity | Reference |
 | --- | --- | --- |
 | 21/09/2026 | Study databases, tables, column types and data locations. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
-| 22/09–23/09/2026 | Distinguish DDL from schema inference with a crawler. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
+| 22/09–23/09/2026 | Distinguish defining tables using DDL from inferring schemas with a crawler. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
 | 24/09–25/09/2026 | Compare table and Parquet file schemas. | [Amazon Athena – AWS Glue Data Catalog](https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html) |
 
 #### Learning outcomes
